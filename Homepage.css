@@ -1,0 +1,58 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
+    border: lightgrey;
+  }
+  
+#absolute {
+    position: absolute;
+    width: 100%;
+    bottom: 1px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+    font-size: 13px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.image {
+    position: absolute;
+    bottom: 450px;
+    right: 850px;
+}
+
+#Searchbar {
+   text-align: center;
+   position: relative;
+   top: 460px;
+   right: 30px;
+  
+}
+
+#Searchbar input:hover {
+    background-color: none;
+    box-shadow: 1px 1px 1px black;  
+} 
+
+
+
+
+
+
+
+
